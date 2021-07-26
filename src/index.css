@@ -1,0 +1,73 @@
+.header {
+  border: 2px solid lightgray;
+  margin: -13px 0px 79px -10px;
+  padding: 48px 36px 46px 790px;
+  width: 1258px;
+  position: absolute;
+  font-family: cursive;
+  background-color: lightgray;
+  color: #818181;
+  box-shadow: -8px 14px 26px rgb(0 0 0 / 30%);
+}
+
+.photo_class{
+  width: 307px;
+  height: 336px;
+  margin: -2px;
+  padding: 0px;
+  border-radius: 14px 14px 1px 0px;
+}
+
+
+.title{
+  margin: 0px 0px 0px 21px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+.card{
+  width: 306px;
+  border: 2px solid white;
+  margin: 298px 8px 1630px 132px;
+  border-radius: 14px;
+  height: 551px;
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+  transition: margin 0.5s, box-shadow 0.3s;
+  background-color: white;
+}
+
+.card:hover{
+  margin: 305px 8px 1630px 132px;
+  box-shadow: -30px 24px 20px rgb(0 0 0 / 30%);
+}
+
+.netflix{
+  margin: 12px 45px 0px 15px;
+  padding: 0px;
+  color: rgb(68, 67, 67);
+  background-color: white;
+}
+
+.description{
+  margin: 0px 3px 0px 14px;
+  padding: 0px;
+  font-family: cursive;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.button{
+  margin: 7px 3px 4px 24px;
+  padding: 17px;
+  background-color: white;
+}
+
+#root{
+
+  max-width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  
+}
